@@ -1,4 +1,7 @@
 import streamlit as st
+import os
+os.system("pip install plotly")
+import plotly.graph_objects as go
 
 st.set_page_config(
     page_title="SmartData Hub",
